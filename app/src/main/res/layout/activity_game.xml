@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="324dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/todoo1" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/guessNumber"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="65dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/lowerButton"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Lower" />
+
+        <Button
+            android:id="@+id/higherButton"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="Higher" />
+
+        <Button
+            android:id="@+id/equalButton"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Equal" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
