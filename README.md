@@ -70,3 +70,13 @@ Instead of manually entering numbers, players interact through button clicks, wi
 - **Event Listeners and UI Feedback**
 
 ---
+
+## ✍️ Authors 
+
+**Yara Khattab**  
+
+  📧 [yarakhattab16@gmail.com](mailto:yarakhattab16@gmail.com) 
+
+  
+  🔗 [GitHub: @yarakhattab](https://github.com/yarakhattab)
+
